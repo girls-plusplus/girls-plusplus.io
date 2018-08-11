@@ -1,0 +1,193 @@
+/*General*/
+/*Desktop View*/
+body{
+    margin: 0;
+    background-color: /*#812781*/#B46CB4;
+    /*Color Palette
+    #B46CB4 - lightest
+    #964196
+    #6C146C
+    #520352 - darkest
+    */
+}
+[class*="col-"]{
+    margin: 0;
+    padding: 0;
+}
+/*Banner*/
+div.Banner{
+    height: 25rem;
+    padding: 0;
+}
+div.Banner img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+img.smBanner{
+    display: none;
+}
+/*Banner end*/
+
+/*Our Misson*/
+div.OurMission header, p{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-weight: 800;
+}
+div.OurMission header{
+    font-size: 45px;
+    color: white
+}
+div.OurMission p{
+    font-size: 25px;
+}
+/*Our Mission end*/
+
+/*Slideshow*/
+div.Slideshow {
+    height: 40rem;
+    display: block;
+}
+div.Slideshow div.carousel-inner img{
+    width: 100%;
+    height: 40rem;  
+}
+
+/*Slideshow end*/
+
+/*Motto*/
+div.Motto{
+    overflow: hidden;
+
+}
+div.mottoPic img{
+    width: 100%;
+    height: 100%
+}
+
+
+ul.GIRLS{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+ul.GIRLS li{
+    font-family: 'Jura', sans-serif;
+    font-weight: 1000;
+    font-size: 35px;
+}
+/*Motto end*/
+/*Events*/
+div.Events{
+    height: 25rem;
+}
+div.Events iframe{
+    height: 100%;
+    width: 100%;
+    border-style: none;
+    padding: 5px;
+}
+/*Events end*/
+
+/*Footer ~ Officers and Social Media*/
+footer{
+    background-color: black;
+    overflow: hidden;
+}
+div.OandSm{
+    margin: 0;
+    padding-left: 5px;;
+    
+}
+div.Officers ul{
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+}
+div.Officers{
+}
+div.Officers ul li{
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+footer h4{
+    font-family: 'Jura', sans-serif;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+div.media{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+div.media img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+}
+/*Footer ~ Officers and Social Media end*/
+
+/*************Mobile View*****************/
+@media screen and (max-width: 700px){
+/*Banner*/
+    img.smBanner{
+        display: block;
+    }
+    img.bigBanner{
+        display: none;
+    }
+    div.Banner{
+        height: 10rem;
+    }
+/*Banner End*/
+/*Our Mission */
+div.OurMission p{
+    font-size: 20px;
+}
+div.OurMission header{
+    font-size: 40px;
+}
+/*Our Mission end*/
+/*Slideshow*/
+    div.Slideshow {
+    height: 25rem;
+
+}
+div.Slideshow div.carousel-inner img{
+    width: 100%;
+    height: 25rem;  
+}
+/*Slideshow end*/
+/*Motto*/
+div.Motto{
+   min-height: 5rem;
+}
+div.Motto img{
+    min-height: 5rem;
+}
+ul.GIRLS li{
+    font-size: 25px;
+}
+/*Motto end*/
+/*Events*/
+    
+/*Events end*/
+/*Footer*/
+/*Officers*/
+    div.Officers ul{
+        margin: 0;
+    }    
+    
+/*Officers end*/
+/*Social Media*/
+/*Social Media end*/
+}
+
+
