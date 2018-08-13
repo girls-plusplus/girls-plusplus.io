@@ -14,6 +14,10 @@ body{
     margin: 0;
     padding: 0;
 }
+a h1{
+   font-family: 'Jura' , sans-serif;
+    color: white;
+}
 /*Banner*/
 div.Banner{
     height: 25rem;
@@ -45,7 +49,16 @@ div.OurMission p{
     font-size: 25px;
 }
 /*Our Mission end*/
+/*JOIN US*/
+div.ju{
+    text-align: center;
+}
+div.ju a{
+    color: white;
+    font-weight: 900;
 
+}
+/*JOIN US end*/
 /*Slideshow*/
 div.Slideshow {
     height: 40rem;
@@ -106,19 +119,23 @@ div.Officers ul{
     list-style: none;
     float: left;
     padding-left: 10px;
-}
-div.Officers{
+    margin: 10px;
 }
 div.Officers ul li{
     font-family: 'Jura', sans-serif;
     font-weight: 500;
     color: white;
 }
-footer h4{
+h4.Offs{
     font-family: 'Jura', sans-serif;
     color: white;
-    padding: 5px;
+    padding-left: 1.2rem;
     margin: 0;
+}
+footer h4.SM{
+    font-family: 'Jura', sans-serif;
+    color: white;
+    margin: 0; 
 }
 div.media{
     width: 3.5rem;
@@ -132,6 +149,16 @@ div.media img{
     width: 100%;
     border-radius: 20%;
 }
+.Join{
+    float: none;
+    color: white;
+    display: block;
+    height: 5rem;
+    font-family: 'Jura', sans-serif;
+    clear: both;
+    padding-top: 3rem;
+}
+
 /*Footer ~ Officers and Social Media end*/
 
 /*************Mobile View*****************/
@@ -183,7 +210,18 @@ ul.GIRLS li{
 /*Officers*/
     div.Officers ul{
         margin: 0;
-    }    
+        padding-left: 1.75rem;
+    }
+    .Join{
+        padding-top:1rem;
+        padding-left: .2rem;
+    }
+    .SM{
+        padding-bottom: .3rem;
+    }
+    div.mobile_placement{
+        padding-left: 1.2rem; 
+    }
     
 /*Officers end*/
 /*Social Media*/
